@@ -1,0 +1,2 @@
+es:
+  prevent_destroy_if_any: No se puede eliminar %{model} mientras %{associations} exista

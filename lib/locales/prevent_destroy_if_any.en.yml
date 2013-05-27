@@ -1,0 +1,2 @@
+en:
+  prevent_destroy_if_any: Cannot delete %{model} while %{associations} exist

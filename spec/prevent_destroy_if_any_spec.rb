@@ -28,7 +28,7 @@ describe "prevent_destroy_if_any" do
       person.projects.create
       person.create_public_profile
       person.destroy
-      person.errors[:base].first.should == "Cannot delete person while projects, public_profile exist"
+      person.errors[:base].first.should == "Cannot delete person while projects and public_profile exist"
     end
 
 
